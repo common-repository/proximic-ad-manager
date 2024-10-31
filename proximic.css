@@ -1,0 +1,54 @@
+.proximic_oddrow td {
+ background: #efe;
+}
+
+.proximic_disabled td, .proximic_disabledhigh td {
+ background: #f5f5f5;
+ color: #aaa;
+}
+
+.proximic_disabledhigh td, .proximic_evenrowhigh td, .proximic_oddrowhigh td {
+ background: #fcc;
+}
+
+input[type="submit"].proximic_btnlink, .proximic_btnlink {
+ display:inline; float: left; border: none; background: transparent; cursor: pointer; text-decoration: underline; color: #00f;
+}
+
+.proximic_warp {
+ clear: both;
+ margin: 10px 0;
+}
+
+.proximic_info {
+ clear: both;
+ padding: 3px 10px;
+ background: #FFFBCC;
+ color: #000;
+ border: 1px solid #E6DB55;
+}
+
+.proximic_errinfo {
+ background: #fee;
+ border: 1px solid #fcc;
+}
+
+.proximic_ad_form {
+ width: 500px;
+}
+
+.proximic_ad_form input, .proximic_ad_form textarea {
+ width: 400px;
+}
+
+.widefat td{
+border:none;
+}
+
+ul.proximic_info_list{
+ padding-left: 35px;
+}
+
+ul.proximic_info_list, ul.proximic_info_list li{
+ list-style: disc outside;
+}
